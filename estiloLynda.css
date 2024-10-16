@@ -1,0 +1,11 @@
+header{
+    height: 60px;
+    width: 100%;
+    float: center;
+    background-color: gray;
+    overflow: hidden;
+}
+h1{
+    color: black;
+    text-align: center;
+}

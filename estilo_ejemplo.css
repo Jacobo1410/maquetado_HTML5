@@ -1,0 +1,50 @@
+div.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+header, nav, section, aside, article, footer {
+    border-radius: 20px;
+    background-color: #927b97;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #c2cfd5;
+}
+
+header, nav, footer {
+    margin-bottom: 20px;
+}
+.contenedor-flex{
+    display: flex;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+section {
+    display: flex;
+    display: block;
+    width: 70%
+}
+
+article{
+    background-color: #dcd5d5;
+    color: black;
+    width: 100%;
+}
+
+aside {
+    width: 30%;
+    margin-left: 10px;
+    float: right;
+}
+
+article{
+    background-color: #dcd5d5;
+    color: black;
+}
