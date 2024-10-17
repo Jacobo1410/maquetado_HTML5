@@ -1,11 +1,66 @@
-header{
-    height: 60px;
-    width: 100%;
-    float: center;
-    background-color: gray;
-    overflow: hidden;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    color: black;
+.container {
+    width: 500px;
+    height: 75px;
+    margin-top:30px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    /*Gradiente*/
+    background: -moz-linear-gradient(center top,#ffffff 0%, #ffffff 100%) repeat scroll 0
+    0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3e4e2),
+    color-stop(100%,#888D90)); 
+}
+h1 {
     text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 0 #fff;
 }
+li a{
+    font-size: 14px;
+}
+h1, a{
+    color: black;
+    font-weight: bold;
+}
+.section {
+    margin-bottom: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border: 2px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 480px;
+    
+}
+.medio{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-radius: 0px ;
+}
+.arriba{
+    border-radius: 10px 10px 0 0;
+}
+.abajo{
+    border-radius: 0 0 10px 10px;
+}
+
